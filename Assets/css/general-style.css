@@ -1,0 +1,53 @@
+.w_10_p{
+    width:100%;
+}
+._b{
+    font-weight: bold;
+}
+.p_15{padding: 15px;}
+.b_bord{
+    border-bottom: 1px solid #000;
+}
+
+.submit{
+    width: 100%;
+    background: #323131;
+    color: #fff;
+}
+
+
+#container{
+    background: url(../M.jpg) top center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#inner_container {
+    background: url(../w_bg.png);
+    margin: 50px 0;
+}
+#landing_footer{
+    clear: both;
+}
+#landing_form *{
+    border-radius: 0;
+}
+
+#w_bg_fade{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../W.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+
+/*Media queries*/
+
+@media (min-width: 992px) {
+
+    #inner_container{
+        left: 15%;
+    }
+}
